@@ -1,0 +1,67 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	max-width:1280px;
+	height:auto;
+	margin:0px auto;
+}
+form{
+	background-color:#006;
+	color:#FFF;
+}
+.style{
+	background-color:transparent;
+	border-color:transparent;
+	border-bottom: 1px solid white;
+	color:white;
+}
+.style:hover{
+	border-bottom: 5px solid white;
+}
+form table{
+	border-spacing:15px;
+	padding-left:400px;
+}
+form input[type=button]{
+	margin-left:600px;
+}
+nav{
+	width:1280px;
+	height:30px;
+	background-color:#060;
+	margin-bottom:5px;
+}
+#com{
+	width:250px;
+}
+nav a{
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	width:150px;
+	height:30px;
+	text-align:center;
+	float:left;
+	line-height:30px;
+}
+nav a:hover{
+	color:#F36;
+	background-color:#FFC;
+}
+#na{
+	background-color:#0F0;
+	color:#603;
+	font-weight:bold;
+}
+td{
+	font-size:18px;
+}
+input{
+	
+	font-size:18px;
+}

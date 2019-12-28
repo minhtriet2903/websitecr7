@@ -1,0 +1,157 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	max-width:1280px;
+	height:auto;
+	margin:0px auto;
+}
+nav{
+	width:1280px;
+	height:30px;
+	background-color:#060;
+	margin-bottom:5px;
+}
+nav a{
+	color:#FFF;
+	font-weight:bold;
+	font-size:20px;
+	text-decoration:none;
+	width:150px;
+	height:30px;
+	text-align:center;
+	float:left;
+	line-height:30px;
+}
+#com{
+	width:250px;
+}
+nav a:hover{
+	color:#F36;
+	background-color:#FFC;
+}
+article{
+	display:table-row;
+}
+aside#left, aside#right, section{
+	display:table-cell;
+	vertical-align:top;
+}
+aside#left{
+	width:240px;
+}
+section{
+	width:750px;
+	padding:0px 8px;
+}
+aside#right{
+	width:200px;
+}
+aside#left>div{
+	border: 1px solid #206AB5;
+	border-radius:4px;
+	margin-bottom:10px;
+	padding:5px 5px;
+}
+aside#left>div>p{
+	background-color:#206AB5;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+aside#left>div>ul{
+	padding-left:10px;
+	font-size:14px;
+	font-family:Arial;
+}
+aside#left>div>ul>li{
+	height:25px;
+	list-style-position:inside;
+	list-style-image:url(../Images/icon_list.jpg);
+	padding-left:5px;
+}
+aside#left>div>ul>li a{
+	color:#206AB5;
+	text-decoration:none;
+}
+aside#left>div>ul>li a:hover{
+	color:#ff0000;
+}
+aside#right>div{
+	border:1px solid #206AB5;
+	border-radius:4px;
+	margin-bottom:30px;
+}
+aside#right>div>p{
+	background-color:#206AB5;
+	border-top-left-radius:2px;
+	border-top-right-radius:2px;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+	color:white;
+	height:25px;
+	padding-top:5px;
+}
+aside#right>div#danhhieu p{
+	clear:both;
+	width:250px;
+	height:50px;
+}
+aside#right>div#danhhieu img{
+	width:40px;
+	height:50px;
+	padding-left:5px;
+	float:left;
+	margin-bottom:5px;
+}
+aside#right>div#danhhieu a{
+	text-decoration:none;
+	font-size:9pt;
+	font-family:Arial;
+	color:#456c26;
+	height:50px;
+}
+aside#right>div#danhhieu a:hover{
+	font-weight:bold;
+}
+section>p{
+	text-indent:20px;
+	text-align:justify;
+	font-size:16px;
+	font-weight:bold;
+	color: #603;
+	padding-top:10px;
+}
+section div{
+	text-align:center;
+}
+h2{
+	padding-top:10px;
+	text-align:center;
+	font-weight:bold;
+	color:#006;
+}
+div#h1{
+	color:#063;
+	text-align:center;
+	margin-top:50px;
+	height:5px;	
+}
+aside#left div img {
+	padding: 5px 5px;
+	padding-left:40px; 
+}
+aside#left div a{
+	color:#00C;
+	padding-left:60px;
+	text-decoration:none;
+}
